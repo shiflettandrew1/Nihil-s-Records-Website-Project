@@ -7,3 +7,24 @@ img{
 h1{
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+nav{
+    padding: 95;
+    color: azure;
+
+}
+
+h1{
+    color: black;
+    padding-left: 5%;
+}
+
+section{
+    padding-left: 10%;
+    color: dimgray;
+}
+
+footer{
+    color: dimgrey;
+    text-align: center;
+}

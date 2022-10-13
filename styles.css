@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 img{
-    width: 500px;
+    max-width: 100%;
     
 }
 
@@ -12,6 +12,11 @@ nav{
     padding: 95;
     color: azure;
 
+}
+
+nav ul li{
+    color: darkslategray;
+    flex-direction: column;
 }
 
 h1{
@@ -29,3 +34,28 @@ footer{
     text-align: center;
     text-size-adjust: 70;
 }
+
+iframe{
+    align-content: center;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+      background-color: rgb(29, 29, 29);
+    }
+  }
+
+  p.paragraph-1{
+    color: brown;
+  }
+
+  @media only screen and (max-width: 480px) {
+    p.paragraph-1 {
+      color: rgb(7, 11, 223);
+    }
+    h1{
+        font-size: 18px;
+    }
+  }
+
+  
